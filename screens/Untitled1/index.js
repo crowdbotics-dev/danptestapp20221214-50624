@@ -1,3 +1,4 @@
+import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -8,7 +9,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.OjxyKPrD}></View></ScrollView>
+    }}><Pressable onPress={{}}><View style={styles.OjxyKPrD}></View></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
