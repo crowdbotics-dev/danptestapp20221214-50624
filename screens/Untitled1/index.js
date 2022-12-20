@@ -12,8 +12,9 @@ const Untitled1 = ({
       position: 'relative',
       flex: 1
     }}><Pressable onPress={() => navigation.navigate("Untitled2", {
-        "email": "{Login.email}",
-        "nombre": "{Login.nombre}"
+        "{Login.email}": "{Login.email}",
+        "{Login.nombre}": "{Login.nombre}",
+        "fdfd": "fdfd"
       })}><View style={styles.OjxyKPrD}></View></Pressable></ScrollView>
     </SafeAreaView>;
 };
