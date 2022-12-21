@@ -11,11 +11,13 @@ const Untitled1 = ({
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Pressable onPress={() => navigation.navigate("Untitled2", {
+    }} onPress={() => {}}><Pressable onPress={() => navigation.navigate("Untitled2", {
         "{Login.email}": "{Login.email}",
         "{Login.nombre}": "{Login.nombre}",
         "fdfd": "fdfd"
-      })}><View style={styles.OjxyKPrD}></View></Pressable><View style={styles.KxnbhhRy}></View></ScrollView>
+      })}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
+        "holaaa": "holaaa"
+      })}><View style={styles.KxnbhhRy}></View></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
