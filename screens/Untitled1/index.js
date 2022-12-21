@@ -15,7 +15,7 @@ const Untitled1 = ({
         "{Login.email}": "{Login.email}",
         "{Login.nombre}": "{Login.nombre}",
         "fdfd": "fdfd"
-      })}><View style={styles.OjxyKPrD}></View></Pressable></ScrollView>
+      })}><View style={styles.OjxyKPrD}></View></Pressable><View style={styles.KxnbhhRy}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -24,6 +24,13 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   OjxyKPrD: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
+  },
+  KxnbhhRy: {
     height: 60,
     width: 140,
     backgroundColor: "#E4E4E4",
