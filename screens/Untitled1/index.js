@@ -14,7 +14,7 @@ const Untitled1 = ({
     }} onPress={() => {}}><Pressable onPress={() => navigation.navigate("Untitled2", {
         "{Login.email}": "{Login.email}",
         "{Login.nombre}": "{Login.nombre}",
-        "fdfd": "fdfd"
+        "pp": "L.pp"
       })}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
         "holaaa": "holaaa"
       })}><View style={styles.KxnbhhRy}></View></Pressable></ScrollView>
