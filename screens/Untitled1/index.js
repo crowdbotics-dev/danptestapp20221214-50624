@@ -5,7 +5,6 @@ import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 const Untitled1 = ({
   navigation
 }) => {
-  const Login = useSelector(state => state.Login);
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
