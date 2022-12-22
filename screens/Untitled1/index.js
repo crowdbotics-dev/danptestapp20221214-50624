@@ -5,6 +5,7 @@ import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 const Untitled1 = ({
   navigation
 }) => {
+  const Login = useSelector(state => state.Login);
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
@@ -16,7 +17,7 @@ const Untitled1 = ({
         "{Login.nombre}": "{Login.nombre}",
         "pp": "L.pp"
       })}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
-        "holaaa": "holaaa"
+        holaaa: holaaa
       })}><View style={styles.KxnbhhRy}></View></Pressable></ScrollView>
     </SafeAreaView>;
 };
