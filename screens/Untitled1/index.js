@@ -14,8 +14,7 @@ const Untitled1 = ({
       flex: 1
     }} onPress={() => {}}><Pressable onPress={() => navigation.navigate("Untitled2", {
         "{Login.email}": "{Login.email}",
-        "{Login.nombre}": "{Login.nombre}",
-        "pp": "L.pp"
+        "{Login.nombre}": "{Login.nombre}"
       })}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
         holaaa: holaaa
       })}><View style={styles.KxnbhhRy}></View></Pressable></ScrollView>
