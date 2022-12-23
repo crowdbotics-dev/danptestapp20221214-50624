@@ -11,7 +11,10 @@ const Untitled1 = ({
       padding: 10,
       position: 'relative',
       flex: 1
-    }} onPress={() => {}}><Pressable onPress={() => navigation.navigate("Untitled2", {})}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
+    }} onPress={() => {}}><Pressable onPress={() => navigation.navigate("Untitled2", {
+        "autor": Libro.autor,
+        "chau": "chau"
+      })}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
         holaaa: holaaa
       })}><View style={styles.KxnbhhRy}></View></Pressable></ScrollView>
     </SafeAreaView>;
