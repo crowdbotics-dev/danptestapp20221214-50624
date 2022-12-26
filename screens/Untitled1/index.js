@@ -14,9 +14,7 @@ const Untitled1 = ({
     }} onPress={() => {}}><Pressable onPress={() => navigation.navigate("Untitled2", {
         "autor": Libro.autor,
         "chau": "chau"
-      })}><View style={styles.OjxyKPrD}></View></Pressable><Pressable onPress={() => navigation.navigate("Untitled3", {
-        holaaa: holaaa
-      })}><View style={styles.KxnbhhRy}></View></Pressable></ScrollView>
+      })}><View style={styles.OjxyKPrD}></View></Pressable><View style={styles.KxnbhhRy}></View></ScrollView>
     </SafeAreaView>;
 };
 
